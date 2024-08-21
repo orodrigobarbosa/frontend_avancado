@@ -95,8 +95,6 @@ button[type="submit"] {
     /*Tamanho da fonte dentro do botão */
     font-size: 18px;
     font-weight: bold;
-    
-    /* Muda o cursor para apontador ao passar o mouse sobre o botão */
     cursor: pointer;
   
 }
@@ -122,8 +120,7 @@ button[type="submit"] {
 a {
     /* Define a cor do texto de links */
     color: #fff;
-    
-    
+
 }
 
 p {
