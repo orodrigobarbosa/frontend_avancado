@@ -1,3 +1,132 @@
+body {
 
-main{text-align: center;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    
+    /* Faz com que a imagem de fundo cubra toda a área visível da página */
+    background-size: cover;
+    
+    /* Define a altura do body para 100% da altura da janela */
+    height: 100vh;
+    margin: 0;
+    
+    /* Centraliza o conteúdo do body, tanto horizontalmente quanto verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    font-family: "Inter", sans-serif;
+
+    /* Define a largura máxima do contêiner Main */
+    width: 100%;
+    max-width: 450px;
+    /* Centraliza os itens horizontal e verticalmente */
+    justify-content: center;
+    align-items: center;
+    
+    /* Adiciona um preenchimento interno ao contêiner Main */
+    padding:50px;
+    
+    /* moldura com fundo transparente e efeito de desfoque */
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius:30px;
+    
+    /* Centraliza o texto e os elementos dentro do contêiner main */
+    text-align: center;
+    color: rgb(240, 248, 255);
+    
+ 
+}
+
+input[type="text"], input[type="password"] {
+    /* Define a largura dos campos de entrada como 100% da largura disponível */
+    width: 100%;
+    
+    /* Adiciona preenchimento interno aos campos de entrada */
+    padding: 20px;
+    
+    /* Adiciona margem acima e abaixo dos campos de entrada */
+    margin: 15px 0;
+    /* Garante que o preenchimento e a largura sejam incluídos no cálculo da largura total */
+    box-sizing: border-box;
+
+    border: none;
+    border-radius: 25px;
+    
+    /* Define a cor de fundo dos campos de entrada com um pouco d efeito de transparência */
+    background-color: rgba(255, 255, 255, 0.2);
+    
+    /* Define a cor do texto dentro dos campos de entrada */
+    color: #ffffff;
+    
+    /* Define o tamanho da fonte dentro dos campos de entrada */
+    font-size: 16px;
+    
+
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    /* Define a cor do texto de placeholder (texto dentro dos campos antes de digitar) */
+    color: #ffffff;
+}
+
+button[type="submit"] {
+    /* Define a largura do botão login como 100% da largura disponível */
+    width: 100%;
+    
+    /* preenchimento interno */
+    padding: 10px;
+    
+    /* Margem acima e abaixo */
+    margin: 20px 0;
+    
+ 
+    border: none;
+    border-radius: 25px;
+    background-color: #ffffff;
+    
+    /* Cor do texto dentro*/
+    color: rgb(60, 59, 59);
+    
+    /*Tamanho da fonte dentro do botão */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  
+}
+
+
+
+.checkboxRememberMe {
+    /* Adiciona margem acima e abaixo do contêiner do checkbox */
+    margin: 10px 0;
+    
+    /* Define o contêiner do checkbox como flexível para melhor alinhamento dos itens */
+    display: flex;
+    
+    /* Alinha verticalmente o checkbox e o label */
+    align-items: center;
+}
+
+.checkboxRememberMe input[type="checkbox"] {
+    /* Adiciona um espaço à direita do checkbox para afastr do label */
+    margin-right: 10px;
+}
+
+a {
+    /* Define a cor do texto de links */
+    color: #fff;
+
+}
+
+p {
+    /* Adiciona margem acima do parágrafo */
+    margin-top: 10px;
+    
+    /* Define a cor do texto dos parágrafos */
+    color: #fff;
 }
